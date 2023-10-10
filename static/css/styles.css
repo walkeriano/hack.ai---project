@@ -1,0 +1,44 @@
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.background_fixed{
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  background-image: url('./../img/texture-2.jpg');
+  background-size: cover;
+}
+
+.container{
+  height: 100vh;
+  width: auto;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  scroll-behavior: smooth;
+}
+
+#welcome{
+  min-width: 100vw;
+  background-color: rgba(255, 50, 100, .4);
+}
+
+#main_layout{
+  min-width: 100vw;
+  height: 100%;
+  background-color: rgba(255, 145, 200, .4);
+}
+
+
