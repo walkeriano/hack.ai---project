@@ -39,6 +39,17 @@ html{
   min-width: 100vw;
   height: 100%;
   background-color: rgba(255, 145, 200, .4);
+  padding-top: 100px;
+}
+
+section.input{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#url{
+  width: 50%;
+  height: 50px;
 }
 
 
