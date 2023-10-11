@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Request HTTP App</title>
+  <title>HACK.AI</title>
   <link rel="stylesheet" href="./static/css/styles.css">
   <link rel="stylesheet" href="./static/css/reset.css">
-  <script src="./lib/js/app.js"></script>
 </head>
 <body>
   <div class="background_fixed">
@@ -39,22 +38,26 @@
             <div class="space-function" >
               <select class="select-styles" >
                 <option>GET</option>
-                <option>dsad</option>
-                <option>dsada</option>
+                <option>POST</option>
+                <option>PUT</option>
+                <option>DELETE</option>
               </select>
-              <input type="text" class="input" />
+              <input placeholder="Introducir link" type="text" class="input" />
             </div>
             <button class="btn-run" ><img class="flecha-two" src="./static/img/flecha-02.svg" alt="icon" /></button>
           </div>
           <div class="content-actions">
             <div class="btn-actions" >
-              <button>Campo</button>
-              <button>Response</button>
+              <button id="button1">Campo</button>
+              <button id="button2">Response</button>
             </div>
+            <div id="divCampo">Contenido del Div 1</div>
+            <div id="divResponse">Contenido del Div 2</div>
           </div>
         </section>
       </section>
     </main>
   </div>
+  <script src="./lib/js/app.js"></script>
 </body>
 </html>
