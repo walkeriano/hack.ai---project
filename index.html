@@ -5,26 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Request HTTP App</title>
   <link rel="stylesheet" href="./static/css/styles.css">
+  <link rel="stylesheet" href="./static/css/reset.css">
   <script src="./lib/js/app.js"></script>
 </head>
 <body>
   <div class="background_fixed">
-    
   </div>
   <div class="container">
     <header id="welcome">
-      <figure id="logo">
-        <img src="" alt="">
+      <figure class="space-logo" id="logo">
+        <img  class="logo-img"  src="./static/img/logo-02.svg" alt="logo-corp">
       </figure>
-      <h1>Descarga datos de cualquier</br>link en tiempo real</h1>
-      <a href="#main_layout">SCROLL</a>
+      <div class="flex-home" >
+        <h1>Descarga datos de cualquier</br>link en tiempo real</h1>
+        <a href="#main_layout">
+          <img class="flecha" src="./static/img/flecha-02.svg" alt="icon" />
+        </a>
+      </div>
     </header>
     <main id="main_layout" class="main_layout">
-      <nav>
-
-      </nav>
-      <section class="input">
-        
+      <img class="logo-brand" alt="logo-layout" src="./static/img/logo-02.svg" />
+      <section class="layout-sec" >
+        <section class="history-sec" >
+          <p>Historial</p>
+          <div class="content-hist">
+            <div class="item-story">
+              <span>http://127.0.0.1:5500/#main_layout</span>
+            </div>
+          </div>
+        </section>
+        <section class="input-sec">
+          <div class="input-box" >
+            <div class="space-function" >
+              <select class="select-styles" >
+                <option>GET</option>
+                <option>dsad</option>
+                <option>dsada</option>
+              </select>
+              <input type="text" class="input" />
+            </div>
+            <button class="btn-run" ><img class="flecha-two" src="./static/img/flecha-02.svg" alt="icon" /></button>
+          </div>
+          <div class="content-actions">
+            <div class="btn-actions" >
+              <button>Campo</button>
+              <button>Response</button>
+            </div>
+          </div>
+        </section>
       </section>
     </main>
   </div>
