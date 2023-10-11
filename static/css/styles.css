@@ -218,6 +218,10 @@ html{
   border: 1px solid #0077ff7e;
   border-radius: 20px;
   backdrop-filter: blur(7px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .btn-actions{
@@ -313,4 +317,66 @@ html{
   letter-spacing:3px;
   border-radius: 50px;
   border: 1px solid transparent;
+  cursor: pointer;
 }
+
+
+.cont-campo{
+  width: 95%;
+  height: 80%;
+  border:1px solid white;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  overflow: auto;
+}
+
+.cont-campo p{
+  text-align: left;
+  font-size: 1.1rem;
+  letter-spacing: 1.5px;
+  color: white;
+}
+
+.cont-response{
+  width: 95%;
+  height:80%;
+  display: flex;
+  align-items: start;
+  justify-content:space-between;
+}
+
+.none{
+  display: none;
+}
+
+.resp-campo{
+  width: 48%;
+  height: 100%;
+  color: white;
+}
+
+.resp-ok{
+  width: 48%;
+  height: 100%;
+  background-color:#0077ff63;
+  color: white;
+  border-radius:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-area{
+  width: 90%;
+  height: 90%;
+  resize: none;
+  border-radius: 20px;
+  background-color:transparent;
+  border:none;
+  padding: 10px;
+  color:white;
+  letter-spacing: 1px;
+}
+
+
