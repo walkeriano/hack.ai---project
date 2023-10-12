@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Request HTTP App</title>
+  <title>HACK.AI</title>
   <link rel="stylesheet" href="./static/css/styles.css">
   <link rel="stylesheet" href="./static/css/reset.css">
-  <script src="./lib/js/app.js"></script>
 </head>
 <body>
   <div class="background_fixed">
@@ -43,14 +42,23 @@
                 <option value="PUT">PUT</option>
                 <option value="DELETE">DELETE</option>
               </select>
-              <input id="url_input" type="text" class="input" />
+              <input id="url_input" placeholder="Introducir link" type="text" class="input" />
             </div>
             <button id="send_request" class="btn-run" ><img class="flecha-two" src="./static/img/flecha-02.svg" alt="icon" /></button>
           </div>
           <div class="content-actions">
             <div class="btn-actions" >
-              <button>Campo</button>
-              <button>Response</button>
+              <button id="button1">Response</button>
+              <button id="button2">Campo</button>
+            </div>
+            <div class="cont-campo" id="divCampo">
+              <p></p>
+            </div>
+            <div class="cont-response" id="divResponse">
+              <div class="resp-campo">cmapo</div>
+              <div class="resp-ok">
+                <textarea class="text-area"></textarea>
+              </div>
             </div>
             <div class="response">
               
@@ -60,5 +68,6 @@
       </section>
     </main>
   </div>
+  <script src="./lib/js/app.js"></script>
 </body>
 </html>
