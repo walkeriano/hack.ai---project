@@ -37,19 +37,23 @@
         <section class="input-sec">
           <div class="input-box" >
             <div class="space-function" >
-              <select class="select-styles" >
-                <option>GET</option>
-                <option>dsad</option>
-                <option>dsada</option>
+              <select id="method_select" class="select-styles" name="select">
+                <option value="GET">GET</option>
+                <option value="POST">POST</option>
+                <option value="PUT">PUT</option>
+                <option value="DELETE">DELETE</option>
               </select>
-              <input type="text" class="input" />
+              <input id="url_input" type="text" class="input" />
             </div>
-            <button class="btn-run" ><img class="flecha-two" src="./static/img/flecha-02.svg" alt="icon" /></button>
+            <button id="send_request" class="btn-run" ><img class="flecha-two" src="./static/img/flecha-02.svg" alt="icon" /></button>
           </div>
           <div class="content-actions">
             <div class="btn-actions" >
               <button>Campo</button>
               <button>Response</button>
+            </div>
+            <div class="response">
+              
             </div>
           </div>
         </section>
