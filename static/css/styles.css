@@ -264,6 +264,7 @@ html{
   flex-direction: column;
   align-items: center;
   justify-content: start;
+  overflow-y: scroll;
 }
 
 .item-story{
@@ -277,6 +278,7 @@ html{
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  flex-shrink: 0;
 }
 
 .item-story span{
