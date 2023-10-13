@@ -35,12 +35,12 @@ html{
   display: flex;
 }
 
-.container::-webkit-scrollbar{
+.container::-webkit-scrollbar, .history-content::-webkit-scrollbar, .cont-campo::-webkit-scrollbar{
   background-color:#00217547;
   height: 10px;
 }
 
-.container::-webkit-scrollbar-thumb{
+.container::-webkit-scrollbar-thumb, .history-content::-webkit-scrollbar-thumb, .cont-campo::-webkit-scrollbar-thumb{
   background-color:#0077ff;
   border-radius: 10px;
 }
@@ -482,8 +482,7 @@ html{
   }
 
   .layout-sec{
-    border: 1px solid white;
-    width: 80%;
+    width: 87%;
     min-height: 80%;
     max-height: none;
     flex-direction:column;
@@ -497,7 +496,7 @@ html{
   }
 
   .history-sec{
-    width:90%;
+    width:100%;
     min-height: 50px;
     display: flex;
     flex-direction: column;
@@ -507,5 +506,47 @@ html{
     border: 1px solid #0077ff7e;
     border-radius:20px;
   }
+
+  .input-box{
+    width: 100%;
+    height: 60px;
+    margin-bottom:30px;
+  }
+
+  .space-function{
+    width: 80%;
+  }
+
+  .btn-run{
+    margin-left: 10px;
+  }
+
+  .input{
+    width: 70%;
+  }
+
+  .select-styles{
+    width: 30%;
+  }
+
+  .content-actions{
+    width: 100%;
+  }
+
+  .activado {
+    font-size: 0.6rem;
+    padding: 8px 10px;
+    letter-spacing:2px;
+  }
   
+  .desactivado{
+    font-size: 0.6rem;
+    padding: 8px 10px;
+    letter-spacing:2px;
+  }
+
+  .world{
+    width: 25px;
+  }
+
 }
